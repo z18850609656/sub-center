@@ -23,6 +23,18 @@ var autoOpenBrowser = !!config.dev.autoOpenBrowser
 var proxyTable = config.dev.proxyTable
 
 var app = express()
+/*--------------------------------------测试vue----------------------------------*/
+
+var testApi =  require("../src/data.json");/*路径*/
+var people = testApi.people
+var testRoutes = express.Router()
+testRoutes.get('/people',function (req,res) {
+  res.json({
+    data:people
+  })
+})
+app.use('/api',testRoutes)
+/*--------------------------------------测试vue----------------------------------*/
 var compiler = webpack(webpackConfig)
 
 var devMiddleware = require('webpack-dev-middleware')(compiler, {

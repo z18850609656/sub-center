@@ -1,0 +1,19 @@
+{
+  "people": [
+    {
+      "title":"高圆圆",
+      "img":"http://imgsrc.baidu.com/forum/w%3D580/sign=688d19b6422309f7e76fad1a420f0c39/0e143912b31bb051dfdebf0a327adab44bede0f9.jpg",
+      "price":"162"
+    },
+    {
+      "title":"张靓颖",
+      "img":"http://shopimg.kongfz.com.cn/20130826/1746508/1746508YTGtm0_b.jpg",
+      "price":"167"
+    },
+    {
+      "title":"周杰伦",
+      "img":"http://www.shiyi910.com/UploadFiles/2014-01/170/2014011322414554305.jpg",
+      "price":"161"
+    }
+  ]
+}
